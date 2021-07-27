@@ -1,6 +1,7 @@
 camera_running = False
 i = 1
 j = 2
+k = 3
 
 def test1():    
     global camera_running
