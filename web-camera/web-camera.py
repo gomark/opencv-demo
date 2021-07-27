@@ -92,7 +92,7 @@ def web_hello():
 @app.route('/start')
 def web_start():
     global vc
-    print('start..' + static1)
+    print('start...' + static1)
     return Response(gen(vc),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
